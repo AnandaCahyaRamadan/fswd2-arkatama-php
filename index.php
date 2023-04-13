@@ -1,0 +1,33 @@
+<?php 
+$nama = "Ananda Cahya Ramadan";
+echo "<p> Nama : $nama </p>";
+echo "<p> TTL : Banyuwangi 11 Desember 2001 </p>";
+echo "<p> Jenis Kelamin : Laki - laki </p>";
+echo "<p> Alamat Lengkap : Banyuwangi - Muncar </p>";
+echo "<p> Foto 3x4 : </p>";
+echo "<img src='fotosaya.jpg' width=113.4px height=151,2px>";
+echo "<p> Riwayat Pendidikan : </p>";
+echo "<table>";
+echo "<tr>";
+    echo "<td> SDN 1 Kedungringin </td>";
+    echo "<td style='width:100px'></td>";
+    echo "<td> 2007 - 2013 </td>";
+echo "</tr>";
+echo "<tr>";
+    echo "<td> SMPN 1 Muncar </td>";
+    echo "<td style='width:100px'></td>";
+    echo "<td> 2013 - 2017 </td>";
+echo "</tr>";
+echo "<tr>";
+    echo "<td> SMKN Darul Ulum Muncar </td>";
+    echo "<td style='width:100px'></td>";
+    echo "<td> 2017 - 2020 </td>";
+echo "</tr>";
+echo "<tr>";
+    echo "<td> Politeknik Negeri Banyuwangi </td>";
+    echo "<td style='width:100px'></td>";
+    echo "<td> 2020 - Sekarang </td>";
+echo "</tr>";
+echo "<table>";
+echo "<p> Hobby : Main gitar, Mancing </p>";
+?>
